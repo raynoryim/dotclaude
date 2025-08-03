@@ -1,0 +1,8 @@
+backups
+ide
+logs
+projects
+shell-snapshots
+statsig
+todos
+*.json
