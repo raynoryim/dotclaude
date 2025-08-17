@@ -27,8 +27,7 @@ Code reviewer shall use @fullstack-code-reviewer.
 
 1. find the right epic file under ./specs or ./specs/epics. Read it carefully.
 2. Think hard to form a plan for the implementation.
-3. Create a new git branch for the implementation. Implement based on the plan using the right coding agents. Write sufficient unit/integration tests accordingly.
+3. Implement based on the plan using the right coding agents. Write sufficient unit/integration tests accordingly.
 4. Review the code with @fullstack-code-reviewer. If the code is not working as expected, fix the code and repeat the process.
 5. Once the code is working as expected (e.g. for rust, `cargo clippy --all-features` and `cargo test --all-features` pass without any warnings/issues), commit the code to the repo.
-6. (optional) If the code has a github repo, push the code to github. Create a PR for the code using `gh` command.
-7. Update the epic file to reflect the changes.
+6. Update the epic file to reflect the changes.
